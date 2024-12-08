@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 59c911424c8e77740ba62cdb2d9acf5d, type: 3}
-  m_Name: EnemyPistol
+  m_Name: Spawner
   m_EditorClassIdentifier: 
-  health: 4
-  movementSpeed: 3.75
+  health: 6
+  movementSpeed: 0
   allegiance: 1
   IFrameOnHit: 0
   onDeath:
     m_PersistentCalls:
       m_Calls: []
-  bulletSpeed: 6
+  bulletSpeed: 0.1
   bulletAmount: 1
-  bulletSpread: 15
-  maxRof: 2
-  minRof: 1
+  bulletSpread: 0
+  maxRof: 0.5
+  minRof: 0
   bulletPrefab: {fileID: 7793830625488646587, guid: 596cfe30c38394a4f8cf07718cf0cda1, type: 3}
-  minDistance: 4
+  minDistance: 0
   gunSound: {fileID: 8300000, guid: 45fc6a4795fd1d64999c03a358bc309e, type: 3}

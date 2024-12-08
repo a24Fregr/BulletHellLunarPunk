@@ -16,8 +16,8 @@ GameObject:
   - component: {fileID: 6771328509810315660}
   - component: {fileID: 6915747760018908853}
   m_Layer: 0
-  m_Name: Enemy
-  m_TagString: Untagged
+  m_Name: Spawned1
+  m_TagString: Spawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5093eeb21f071374fb1eb16952efe6c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyStats: {fileID: 0}
+  enemyStats: {fileID: 11400000, guid: 0b578546eef8b914aa915ed28a80abe0, type: 2}
   audioSource: {fileID: 6915747760018908853}
 --- !u!114 &8997878228620036409
 MonoBehaviour:
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48ccbcf464851194bbc0b9624a01236b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyStats: {fileID: 0}
+  enemyStats: {fileID: 11400000, guid: 0b578546eef8b914aa915ed28a80abe0, type: 2}
   spriteRenderer: {fileID: 4518771022408987558}
   onDeath:
     m_PersistentCalls:
